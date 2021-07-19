@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         btnSave.setOnClickListener {
             var note = editText.text.toString()
             FirebaseDatabase.getInstance().reference.push().setValue(note)
-            Log.d("IDK", "onCreate: HELLOdsd")
+            Log.d("IDK", "onCreate: HELLO")
 
         }
 
